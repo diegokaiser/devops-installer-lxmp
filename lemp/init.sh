@@ -4,30 +4,30 @@
 echo "Heil, mein Kaiser!"
 
 # updating and upgrading
-tools/updateNupgrade.sh
+/$USER/devops-installer-lxmp/tools/updateNupgrade.sh
 
 # swaping
-tools/swap.sh
+/$USER/devops-installer-lxmp/tools/swap.sh
 
 echo "lemping..."
 # installing nginx
-tools/nginx.sh
+/$USER/devops-installer-lxmp/tools/nginx.sh
 
 # installing mysql
-tools/mysql.sh
+/$USER/devops-installer-lxmp/tools/mysql.sh
 
 # installing php
-tools/php.sh
+/$USER/devops-installer-lxmp/tools/php.sh
 echo "lemping done!"
 
 # owning
-tools/fixes/lxmp_owning.sh
+/$USER/devops-installer-lxmp/tools/fixes/lxmp_owning.sh
 
 # users and permissions
-tools/fixes/lxmp_permissions.sh
+/$USER/devops-installer-lxmp/tools/fixes/lxmp_permissions.sh
 
 # UFW
-tools/ufw.sh
+/$USER/devops-installer-lxmp/tools/ufw.sh
 
 # finish...
-tools/reboot.sh
+/$USER/devops-installer-lxmp/tools/reboot.sh

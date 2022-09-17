@@ -4,30 +4,30 @@
 echo "Heil, mein Kaiser!"
 
 # updating and upgrading
-tools/updateNupgrade.sh
+/$USER/devops-installer-lxmp/tools/updateNupgrade.sh
 
 # swaping
-tools/swap.sh
+/$USER/devops-installer-lxmp/tools/swap.sh
 
 echo "lamping..."
-tools/tasksel_lamp.sh
+/$USER/devops-installer-lxmp/tools/tasksel_lamp.sh
 
 echo "installing libraries..."
 # installing libraries
-tools/mods/php_libraries.sh
+/$USER/devops-installer-lxmp/tools/mods/php_libraries.sh
 echo "lamping done!"
 
 # enabling mod rewrite
-tools/mods/mod_rewrite.sh
+/$USER/devops-installer-lxmp/tools/mods/mod_rewrite.sh
 
 # owning
-tools/fixes/lxmp_owning.sh
+/$USER/devops-installer-lxmp/tools/fixes/lxmp_owning.sh
 
 # users and permissions
-tools/fixes/lxmp_permissions.sh
+/$USER/devops-installer-lxmp/tools/fixes/lxmp_permissions.sh
 
 # UFW
-tools/ufw.sh
+/$USER/devops-installer-lxmp/tools/ufw.sh
 
 # finish...
-tools/reboot.sh
+/$USER/devops-installer-lxmp/tools/reboot.sh

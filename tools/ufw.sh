@@ -19,4 +19,5 @@ sudo ufw enable
 echo "- summary"
 sudo ufw status verbose
 
+echo "~~~~~~~~~"
 echo "ufw done!"

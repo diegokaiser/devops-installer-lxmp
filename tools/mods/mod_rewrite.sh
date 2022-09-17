@@ -2,4 +2,5 @@
 
 echo "modding..."
 sudo a2enmod rewrite && sudo service apeche2 restart
+echo "~~~~~~~~~~~~"
 echo "modding done!"

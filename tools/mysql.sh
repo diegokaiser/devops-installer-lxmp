@@ -21,4 +21,5 @@ sudo mysql_secure_installation
 # TODO
 # correr la instalacion de seguridad
 
+echo "~~~~~~~~~~~~~"
 echo "- mysql done!"
