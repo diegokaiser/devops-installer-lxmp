@@ -29,8 +29,5 @@ tools/fixes/lxmp_permissions.sh
 # UFW
 tools/ufw.sh
 
-# GIT
-tools/git.sh
-
 # finish...
 tools/reboot.sh
